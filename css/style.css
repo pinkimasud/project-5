@@ -1,0 +1,314 @@
+/* countdowncss */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+#days {
+  font-size: 70px;
+  color: #db4844;
+}
+#hours {
+  font-size: 60px;
+  color: #f07c22;
+}
+#minutes {
+  font-size: 50px;
+  color: #f6da74;
+}
+#seconds {
+  font-size: 40px;
+  color: #abcd58;
+}
+#days, #hours, #minutes, #seconds{
+    display: inline-block;
+    margin-right: 20px;
+} 
+.timer {
+  display: inline-block;
+  line-height: 1;
+  padding: 50px 0px;
+  font-size: 40px;
+}
+.time-h h1{
+    color: rgb(255, 94, 0);
+    font-size: 40px;
+    padding: 40px 0px;
+    text-transform: uppercase;
+    font-family: serif;
+}
+span {
+  display: block;
+  font-size: 20px;
+  color: rgb(255, 94, 0);
+}
+.countdown-section{
+    background-color:#000000b5;
+    padding:100px 0px;
+}
+
+/* countdowncss end*/
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    min-width: 420px;
+}
+
+/* herader section start */
+.head{
+    background-color: #000 ;
+    padding: 10px 0px;
+
+}
+.navbar-brand{
+    width: 50px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.toggle{
+    color: #fff;
+}
+.banner-area{
+    background-image: url(../images/snowboarding.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0px;
+
+}
+
+.banner-text{
+
+position: relative;
+}
+.banner-text h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.banner-text a{
+    padding: 11px 26px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color:#00000073;
+    font-size: 13px;
+    text-decoration: none;
+    position: absolute;
+    bottom: -55px;
+    right: 64px;
+}
+.banner-text a:hover{
+    color: #fff;
+    background-color: #010101;
+    font-size: 16px;
+}
+
+.snowboards-area{
+     padding: 50px 0px;
+}
+.snowboards-area h2{
+     
+text-transform: uppercase;
+     
+margin-bottom: 30px;
+     
+font-weight: 700;
+}
+.snowboards-area p{
+     
+margin-bottom: 40px;
+}
+.end{
+    margin: 30px 0px;
+}
+.snowboards-area a i{
+     font-size: 30px;
+     color: #000;
+     margin-bottom: 42px;
+}
+.mountain-section{
+    background-image: url(../images/man.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0px;
+}
+.text-mountain{
+
+}
+.text-mountain h1{
+    color: #fff;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.text-mountain p {
+    color: #fff;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 15px 10px;
+}
+.feature-section h1{
+    color: #000;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.feature-section{
+    padding: 100px 0px;
+}
+/* feature section */
+.img-item{
+  position: relative;
+}
+.img-item:before{
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  background-color: #0000007a;
+  z-index: 1;
+  transition: all .4s;
+}
+.img-wrapper:hover .img-item:before{
+    width: 100%;
+    height: 100%;
+}
+.img-item a i{
+    opacity: 0;
+    z-index: 2;
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+.img-wrapper:hover .img-item i{
+    opacity: 1;
+}
+.img-item img{
+    width: 100%;
+}
+.img-item p{
+    z-index: 99999;
+    position: absolute;
+}
+/* <!-- customer review --> */
+.counter-section{
+    padding: 70px 0px;
+}
+.counter-head{
+
+}
+.counter-head h2{
+ 
+}
+.counter-head p{
+    
+}
+.counter {
+    background-color:#f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
+/*footer section*/
+.footer-section{
+    background-color:#000;
+    padding: 80px 0px;
+    color: #fff;
+}
+.hg-footer{
+    min-height: 20vh;
+ }
+.product h3{
+
+text-transform: uppercase;
+
+font-size: 18px;
+}
+.button, input {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.product ul li a{
+color: #fff;
+text-decoration: none;
+font-size: 14px;
+}
+.product{
+min-height: 250px;
+text-align: left;
+}
+.change ul li a {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+ dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+ .footer-content{
+     padding-top: 40px;
+ }
+ .terms ul li a{
+     font-size: 14px;
+     color: #fff; 
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+ .social-follow ul li{
+     padding: 5px;
+ }
+ .social-follow ul li a i{
+     color:#fff ;
+     font-size: 25px;
+     padding: 5px;
+}
+ .social-follow ul li a i:hover{
+     font-size:28px ;
+ }
+
